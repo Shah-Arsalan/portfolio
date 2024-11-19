@@ -19,6 +19,10 @@ import f2 from "../images/f2.png";
 import f3 from "../images/f3.png";
 import f4 from "../images/f4.png";
 import f5 from "../images/f5.png";
+import fb1 from "../images/fb1.png";
+import fb2 from "../images/fb2.png";
+import fb3 from "../images/fb3.png";
+import fb4 from "../images/fb4.png";
 import signup from "../images/signup.png";
 import websack from "../images/websack.png";
 const Projects = () => {
@@ -59,6 +63,49 @@ const Projects = () => {
           Source Code
         </button>
       </div> */}
+
+      <div className="text-custompurple text-xl cb:text-3xl mb-4 flex justify-center items-center flex-wrap gap-3 px-3 mt-10">
+        <i class="far fa-sticky-note"></i>{" "}
+        <p>Fine Blog - The blog sharing app</p>
+      </div>
+      <div className="flex flex-col gap-4 justify-center items-center  cb:flex-row cb:flex-wrap p-16 pt-6 pb-6 cb:pt-6">
+        <div className=" cb:w-3/5">
+          <img src={fb1} className=" w-full h-full object-cover" />
+        </div>
+        <div className=" cb:w-1/3">
+          <img src={fb2} className=" w-full h-full object-cover" />
+        </div>
+        <div className="cb:w-1/3 cb:mt-4">
+          <img src={fb3} className=" w-full h-full object-cover" />
+        </div>
+        <div className=" cb:w-1/3 cb:mt-4">
+          <img src={fb4} className=" w-full h-full object-cover" />
+        </div>
+      </div>
+      <div className="p-10 text-gray-500 space-y-4">
+        <h1 className=" text-custompurple text-2xl">Tech Stack</h1>
+        <p className="text-lg">
+          Next Js, Auth.js
+          {" "}
+        
+        </p>
+      </div>
+      <div className="flex flex-col justify-center items-center cb:flex-row gap-4 mb-20 cb:gap-8">
+        <a href="https://fine-blog-two.vercel.app/">
+          <button className="rounded bg-custompurple p-2 border-custompurple border-2 hover:bg-purple-900 text-white  w-36 rounded-full ">
+            See live!
+          </button>
+        </a>
+
+        <a href="https://github.com/Shah-Arsalan/fine-blog">
+          <button className="rounded bg-white p-2 hover:bg-custompurple hover:text-white text-black border-2 border-custompurple w-36 rounded-full">
+            Source Code
+          </button>
+        </a>
+      </div>
+
+
+
       <div className="text-custompurple text-xl cb:text-3xl mb-4 flex justify-center items-center flex-wrap gap-3 px-3 mt-10">
         <i class="far fa-sticky-note"></i>{" "}
         <p>Note Buddy - The note taking app</p>
