@@ -9,7 +9,7 @@ const Nav = () => {
           <li className=" hover:text-custompurple cursor-pointer"  onClick={() => navigate("/")}>Home</li>
           <li className=" hover:text-custompurple cursor-pointer"  onClick={() => navigate("/projects")}>Projects</li>
           <li className=" hover:text-custompurple cursor-pointer" onClick={() => navigate("/blogs")}>Blogs</li>
-          <li className="rounded bg-custompurple py-2 px-3 hover:bg-purple-900 text-white"><a href="https://drive.google.com/file/d/1Xgx8bVVzy3I9xb8E8Z1TrKdqtH_d9og9/view?usp=drive_link"><button>Resume</button></a></li>
+          <li className="rounded bg-custompurple py-2 px-3 hover:bg-purple-900 text-white"><a href="https://drive.google.com/file/d/1UFk7V24-q7-gFxtXA_pSqIV_1VETJqSz/view?usp=drive_link"><button>Resume</button></a></li>
         </ul>
       </div>
 
